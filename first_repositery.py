@@ -1,3 +1,4 @@
-import random
-print(random.randint(1,20))
+import pygame
 
+screen = pygame.display.set_mode((800, 600))
+caption = pygame.display.set_caption('dyson sphere')
